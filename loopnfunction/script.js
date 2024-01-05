@@ -33,12 +33,33 @@
 // const fullName = fName("raktim", "kumar", "shrestha");
 // console.log(fullName);
 
-function evenNum(i) {
-  let num = i % 2;
-  if (i == 0) {
-    console.log("Given number is even");
-  } else console.log("Given number is odd");
-  return num;
-}
-let input = prompt("enter a number");
-const finalI = evenNum(input);
+// function evenNum(i) {
+//   let num = i % 2;
+//   if (i == 0) {
+//     console.log("Given number is even");
+//   } else console.log("Given number is odd");
+//   return num;
+// }
+// let input = prompt("enter a number");
+// const finalI = evenNum(input);
+
+//slice and substring diff
+
+//pcase
+
+// function upCase(name) {
+//   return name.toUpperCase();
+// }
+// let fin = upCase("raktim");
+// console.log(fin);
+
+//ES6
+//arrow function
+
+const upperCase = (name) => {
+  return name.toUpperCase();
+};
+const finalA = upperCase("sujata");
+console.log(finalA);
+
+// anonymous function
