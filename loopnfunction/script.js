@@ -120,9 +120,10 @@
 // console.log(repeated("ababae"));
 
 // const rev = (fName) => {
-//   let spliting = fName.split("");
+//   const spliting = fName.split(""); //["M",...]
 //   let reversing = spliting.reverse();
 //   let joining = reversing.join(" ");
+//   // let upp = fName.toUpperCase();
 //   return { spliting, reversing, joining };
 // };
 // const finalAns = rev("My name is sujata");
