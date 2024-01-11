@@ -1,0 +1,3 @@
+const submiting = () => {
+  alert("ok");
+};

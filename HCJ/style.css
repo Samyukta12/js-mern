@@ -1,0 +1,16 @@
+p {
+  background-color: rgb(255, 0, 55);
+  color: rgb(70, 231, 231);
+  padding-left: 50px;
+  padding: 50px;
+  text-decoration: underline;
+ 
+}
+#id1 {
+  background-color: blueviolet;
+  margin: 10px;
+}
+
+.newClass {
+  color: cadetblue;
+}
